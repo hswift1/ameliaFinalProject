@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA45F37821EF842F00579650 /* GameDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45F37721EF842F00579650 /* GameDetails.swift */; };
+		CA45F37A21EF84BE00579650 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45F37921EF84BE00579650 /* GameTableViewController.swift */; };
+		CA45F38021F242E200579650 /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45F37F21F242E200579650 /* GameList.swift */; };
 		CA6FF05F21E66AE900BBAE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FF05E21E66AE900BBAE9F /* AppDelegate.swift */; };
-		CA6FF06121E66AE900BBAE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FF06021E66AE900BBAE9F /* ViewController.swift */; };
 		CA6FF06421E66AE900BBAE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FF06221E66AE900BBAE9F /* Main.storyboard */; };
 		CA6FF06621E66AEB00BBAE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6FF06521E66AEB00BBAE9F /* Assets.xcassets */; };
 		CA6FF06921E66AEB00BBAE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FF06721E66AEB00BBAE9F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA45F37721EF842F00579650 /* GameDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetails.swift; sourceTree = "<group>"; };
+		CA45F37921EF84BE00579650 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
+		CA45F37F21F242E200579650 /* GameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
 		CA6FF05B21E66AE900BBAE9F /* ameliaFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ameliaFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6FF05E21E66AE900BBAE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA6FF06021E66AE900BBAE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA6FF06321E66AE900BBAE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA6FF06521E66AEB00BBAE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6FF06821E66AEB00BBAE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				CA6FF05E21E66AE900BBAE9F /* AppDelegate.swift */,
-				CA6FF06021E66AE900BBAE9F /* ViewController.swift */,
+				CA45F37F21F242E200579650 /* GameList.swift */,
+				CA45F37721EF842F00579650 /* GameDetails.swift */,
+				CA45F37921EF84BE00579650 /* GameTableViewController.swift */,
+				CA6FF06721E66AEB00BBAE9F /* LaunchScreen.storyboard */,
 				CA6FF06221E66AE900BBAE9F /* Main.storyboard */,
 				CA6FF06521E66AEB00BBAE9F /* Assets.xcassets */,
-				CA6FF06721E66AEB00BBAE9F /* LaunchScreen.storyboard */,
 				CA6FF06A21E66AEB00BBAE9F /* Info.plist */,
 			);
 			path = ameliaFinalProject;
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA6FF06121E66AE900BBAE9F /* ViewController.swift in Sources */,
+				CA45F37A21EF84BE00579650 /* GameTableViewController.swift in Sources */,
+				CA45F38021F242E200579650 /* GameList.swift in Sources */,
+				CA45F37821EF842F00579650 /* GameDetails.swift in Sources */,
 				CA6FF05F21E66AE900BBAE9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z3B7H645;
 				INFOPLIST_FILE = ameliaFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32Z3B7H645;
 				INFOPLIST_FILE = ameliaFinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
